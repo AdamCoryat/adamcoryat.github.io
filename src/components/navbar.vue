@@ -1,22 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
-        <img
-          alt="Vue logo"
-          src="../assets/logo.png"
-          style="transform: rotate(-90deg);width: 25px;"
-        />
-        <img
-          alt="Vue logo"
-          src="../assets/logo.png"
-          style="transform: rotate(-90deg);width: 25px;margin-top: -10px;"
-        />
-      </div>
-      <div>
-        <h3 style="color: green">loggr</h3>
-      </div>
-    </router-link>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
+    <div>
+      <h1 class="mx-2 text-light">Adam Coryat</h1>
+    </div>
     <button
       class="navbar-toggler"
       type="button"
@@ -32,7 +18,7 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item" :class="{ active: $route.name == 'Home' }">
           <router-link :to="{ name: 'Home' }" class="nav-link"
-            >Home</router-link
+            >About Me</router-link
           >
         </li>
         <li
@@ -45,16 +31,12 @@
           >
         </li>
       </ul>
-      <span class="navbar-text">
-        <button
-          class="btn btn-success"
-          @click="login"
-          v-if="!$auth.isAuthenticated"
-        >
-          Login
-        </button>
-        <button class="btn btn-danger" @click="logout" v-else>logout</button>
-      </span>
+    </div>
+    <div class="text-light d-flex">
+      <h4 class="mx-2">About Me</h4>
+      <h4 class="mx-2">Projects</h4>
+      <h4 class="mx-2">Skills</h4>
+      <h4 class="mx-2">Contact</h4>
     </div>
   </nav>
 </template>
