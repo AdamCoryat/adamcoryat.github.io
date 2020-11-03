@@ -12,11 +12,11 @@
           <button type="button" class="btn-primary btn">Learn More</button>
         </div>
       </article>
-      <article
+      <section
         id="landing-about"
         class="about-bg col-12 d-flex flex-wrap justify-content-center align-items-center text-light"
       >
-        <div id="about-card" class="card">
+        <article id="about-card" class="card">
           <div class="card-body">
             <h4 class="card-title text-center">About Me</h4>
             <hr class="line-break" />
@@ -38,24 +38,78 @@
               autem!
             </p>
           </div>
+        </article>
+      </section>
+    </section>
+    <section id="landing-skills" class="row flex-wrap align-items-center">
+      <articl class="col-12 text-center text-light">
+        <h1>Languages and Tools</h1>
+      </articl>
+      <article class="col-2 fill"></article>
+      <article class="col-8 text-center">
+        <img class="logo m-1" src="../assets/CSS.png" />
+        <img class="logo m-1" src="../assets/HTML.png" />
+        <img class="logo m-1" src="../assets/Bootstrap.png" />
+        <img class="logo m-1" src="../assets/SASS.png" />
+        <img class="logo m-1" src="../assets/VueLogo.png" />
+        <img class="logo m-1" src="../assets/JS.png" />
+        <img class="logo m-1" src="../assets/Csharp.png" />
+        <img class="logo m-1" src="../assets/NET.png" />
+        <img class="logo m-1" src="../assets/Mysql.png" />
+        <img class="logo m-1" src="../assets/Mongo.png" />
+        <img class="logo m-1" src="../assets/GIT.png" />
+      </article>
+      <article class="col-2 fill"></article>
+    </section>
+    <section id="landing-applications" class="row">
+      <article id="application-title" class="col-12 text-center text-light p-4">
+        <h1>Applications</h1>
+      </article>
+      <article class="col-12 d-flex justify-content-center">
+        <div class="card m-2">
+          <img class="card-img-top" src="../assets/Petpal.png" alt="" />
+          <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img class="card-img-top" src="../assets/Kanban.png" alt="" />
+          <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img class="card-img-top" src="../assets/Bugspray.png" alt="" />
+          <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text</p>
+          </div>
         </div>
       </article>
-      <article id="landing-skills" class="">
-        <div class="col-2 fill"></div>
-        <div class="col-8">
-          <img class="logo m-1" src="../assets/CSS.png" />
-          <img class="logo m-1" src="../assets/HTML.png" />
-          <img class="logo m-1" src="../assets/Bootstrap.png" />
-          <img class="logo m-1" src="../assets/SASS.png" />
-          <img class="logo m-1" src="../assets/VueLogo.png" />
-          <img class="logo m-1" src="../assets/JS.png" />
-          <img class="logo m-1" src="../assets/Csharp.png" />
-          <img class="logo m-1" src="../assets/NET.png" />
-          <img class="logo m-1" src="../assets/Mysql.png" />
-          <img class="logo m-1" src="../assets/Mongo.png" />
-          <img class="logo m-1" src="../assets/GIT.png" />
+      <article class="col-12 d-flex justify-content-center">
+        <div class="card m-2">
+          <img class="card-img-top" src="holder.js/100x180/" alt="" />
+          <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text</p>
+          </div>
         </div>
-        <div class="col-2 fill"></div>
+        <div class="card m-2">
+          <img class="card-img-top" src="holder.js/100x180/" alt="" />
+          <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img class="card-img-top" src="holder.js/100x180/" alt="" />
+          <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text</p>
+          </div>
+        </div>
       </article>
     </section>
   </main>
@@ -91,9 +145,12 @@ export default {
   background: black;
 }
 .logo {
-  height: 12vh;
+  height: 14vh;
 }
 .fill {
-  min-width: 15vw;
+  min-width: 3vw;
+}
+.card {
+  width: 25vw;
 }
 </style>
