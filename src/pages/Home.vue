@@ -68,24 +68,12 @@
       <article class="col-12 d-flex justify-content-center">
         <div class="card m-2">
           <img class="card-img-top" src="../assets/Petpal.png" alt="" />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
         </div>
         <div class="card m-2">
           <img class="card-img-top" src="../assets/Kanban.png" alt="" />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
         </div>
         <div class="card m-2">
           <img class="card-img-top" src="../assets/Bugspray.png" alt="" />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
         </div>
       </article>
       <article class="col-12 d-flex justify-content-center">
