@@ -10,3 +10,9 @@
 .bg-semi-transparent {
   background-color: rgba(0, 0, 0, 0.472);
 }
+a {
+  color: #b6b6b6;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}

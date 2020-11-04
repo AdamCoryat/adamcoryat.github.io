@@ -32,11 +32,13 @@
         </li>
       </ul>
     </div>
-    <div class="text-light d-flex">
-      <h4 class="mx-2">About Me</h4>
-      <h4 class="mx-2">Projects</h4>
-      <h4 class="mx-2">Skills</h4>
-      <h4 class="mx-2">Contact</h4>
+    <div class="d-flex">
+      <a href="#landing-about"><h4 class="mx-2 text-light">About Me</h4></a>
+      <a href="#landing-skills"><h4 class="mx-2 text-light">Skills</h4></a>
+      <a href="#landing-applications"
+        ><h4 class="mx-2 text-light">Applications</h4></a
+      >
+      <a href="#landing-about"><h4 class="mx-2 text-light">Contact</h4></a>
     </div>
   </nav>
 </template>
