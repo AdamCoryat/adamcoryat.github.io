@@ -21,21 +21,16 @@
             <h4 class="card-title text-center">About Me</h4>
             <hr class="line-break" />
             <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
-              dignissimos velit omnis doloremque repellendus corporis, dolore
-              eum officia temporibus in at voluptates ad corrupti eius
-              reprehenderit! Placeat accusantium ad Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Accusantium maiores ipsum tempore
-              eos necessitatibus? Itaque, qui voluptatum et quasi reprehenderit
-              quam repudiandae, quod debitis unde asperiores iure quas omnis
-              nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Ipsa, aut! Molestiae labore, distinctio odit dignissimos optio est
-              unde eligendi, magni voluptates voluptate tenetur voluptas nobis
-              nemo temporibus ratione deserunt consectetur. Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Nihil eum consequatur nulla
-              commodi sequi. Debitis dolores odit pariatur aspernatur nostrum
-              minima eos cumque laboriosam dolore. Debitis aut omnis nostrum
-              autem!
+              I am a Full Stack Software Developer I currently code in
+              JavaScript and C#. I utilize the Node.Js and .Net frame work for
+              the server side and use the Vue.js frame work for the client side.
+              I've been consumed by my intrest with computers since I was a kid
+              and that intrest just keeps growing. I custome build pc's as well
+              as dable in water-cooling overclocking and general hardware
+              shinangins. When im not coding or tinkering with my computer ill
+              usually be outside find some boulder to climb or climbing at the
+              local crag. I have an unquenchable thirst for knowledge and
+              luckily the tech industry seems to be an endless supply of that.
             </p>
           </div>
         </article>
@@ -173,7 +168,7 @@
     </section>
     <section id="landing-contact" class="row">
       <article class="col-12 text-center text-light">
-        <h3 class="m-2">Contact</h3>
+        <h4 class="m-4">Please Contact Me With Any Questions</h4>
       </article>
       <a href="mailto:tunnelvision77@gmail.com" class="text-center col-4">
         <i class="fa fa-envelope icon" aria-hidden="true"></i>
@@ -197,6 +192,7 @@
 <script>
 export default {
   name: "home",
+  methods: {},
 };
 </script>
 <style scoped>

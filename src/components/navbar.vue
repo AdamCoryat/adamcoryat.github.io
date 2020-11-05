@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
     <div>
       <h1 class="mx-2 text-light">Adam Coryat</h1>
     </div>
@@ -14,31 +14,32 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <div
+      class="d-flex justify-content-end collapse navbar-collapse"
+      id="navbarText"
+    >
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item" :class="{ active: $route.name == 'Home' }">
-          <router-link :to="{ name: 'Home' }" class="nav-link"
-            >About Me</router-link
+        <li class="nav-item">
+          <a href="#landing-about" v-smooth-scroll
+            ><h4 class="mx-2 text-light">About Me</h4></a
           >
         </li>
-        <li
-          class="nav-item"
-          v-if="$auth.isAuthenticated"
-          :class="{ active: $route.name == 'Profile' }"
-        >
-          <router-link class="nav-link" :to="{ name: 'Profile' }"
-            >Profile</router-link
+        <li class="nav-item">
+          <a href="#landing-skills" v-smooth-scroll
+            ><h4 class="mx-2 text-light">Skills</h4></a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#landing-applications"
+            ><h4 class="mx-2 text-light" v-smooth-scroll>Applications</h4></a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#landing-contact" v-smooth-scroll
+            ><h4 class="mx-2 text-light">Contact</h4></a
           >
         </li>
       </ul>
-    </div>
-    <div class="d-flex">
-      <a href="#landing-about"><h4 class="mx-2 text-light">About Me</h4></a>
-      <a href="#landing-skills"><h4 class="mx-2 text-light">Skills</h4></a>
-      <a href="#landing-applications"
-        ><h4 class="mx-2 text-light">Applications</h4></a
-      >
-      <a href="#landing-about"><h4 class="mx-2 text-light">Contact</h4></a>
     </div>
   </nav>
 </template>
