@@ -73,13 +73,13 @@
           <img class="card-img-top" src="../assets/Petpal.png" alt="" />
           <div class="overlay text-center text-light p-1">
             <h3>PetPal</h3>
+            <h5>Vue.Js Node.Js MongoDb Auth0</h5>
             <p>
-              Full Stack Mobile Application. Utilizing Vue.js client as well as
-              a Node.js Server with Auth0. I created this app by utilizing an
-              api that collects data from mutilple animal shelters. This is
-              meant to make a one stop shop for adopting an animal by your
-              location and being able to save and contact the shelter for more
-              information.
+              This is a mobile application that uses data from all an api that
+              collects data from animal shelters all over the United States. You
+              can search by your state and city to find animals that are near
+              you. As well as favorite animals and contact the shelter for
+              adoption.
             </p>
           </div>
         </a>
@@ -90,11 +90,11 @@
           <img class="card-img-top" src="../assets/Kanban.png" alt="" />
           <div class="overlay text-center text-light p-1">
             <h3>KanBan</h3>
+            <h5>Vue.Js Node.Js MongoDb Auth0</h5>
             <p>
-              Full Stack Application. Utilzing Vue.js clientside as well as a
-              Node.Js Server with Auth0. This application lets you create boards
-              that track lists and tasks as well as comments. You can move tasks
-              from list to list as well as implement the full CRUD system.
+              This application lets you create boards that track lists and tasks
+              as well as comments. You can move tasks from list to list as well
+              as implement the full CRUD system.
             </p>
           </div>
         </a>
@@ -172,7 +172,24 @@
       </article>
     </section>
     <section id="landing-contact" class="row">
-      <article class="col-12"></article>
+      <article class="col-12 text-center text-light">
+        <h3 class="m-2">Contact</h3>
+      </article>
+      <a href="mailto:tunnelvision77@gmail.com" class="text-center col-4">
+        <i class="fa fa-envelope icon" aria-hidden="true"></i>
+        <p class="text-light">Tunnelvision77@gmail.com</p>
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1xTFYxTHghaWWKP3EC-4AHp2cKox-9Sbu/view?usp=sharing"
+        class="text-center col-4"
+      >
+        <i class="fa fa-file-text icon" aria-hidden="true"></i>
+        <p class="text-light">Resume</p>
+      </a>
+      <a href="tel:+1-208-880-3739" class="text-center col-4">
+        <i class="fa fa-mobile icon" aria-hidden="true"></i>
+        <p class="text-light">208-880-3739</p>
+      </a>
     </section>
   </main>
 </template>
@@ -250,5 +267,9 @@ export default {
 #landing-contact {
   min-height: 30vh;
   background-color: rgb(65, 65, 65);
+}
+.icon {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
 }
 </style>
