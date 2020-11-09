@@ -22,15 +22,16 @@
             <hr class="line-break" />
             <p class="card-text">
               I am a Full Stack Software Developer I currently code in
-              JavaScript and C#. I utilize the Node.Js and .Net frame work for
-              the server side and use the Vue.js frame work for the client side.
-              I've been consumed by my intrest with computers since I was a kid
-              and that intrest just keeps growing. I custome build pc's as well
-              as dable in water-cooling overclocking and general hardware
-              shinangins. When im not coding or tinkering with my computer ill
-              usually be outside find some boulder to climb or climbing at the
-              local crag. I have an unquenchable thirst for knowledge and
-              luckily the tech industry seems to be an endless supply of that.
+              JavaScript and C#. I utilize the Node.Js and .Net frame-work for
+              the server side as well as utilize the Vue.js frame-work for the
+              client side. I've been consumed by my intrest with computers since
+              I was a kid and that intrest just keeps growing. I custom build
+              pc's as well as dabble in water-cooling overclocking and general
+              hardware shinangins. When I'm not coding or tinkering with my
+              computer I will usually be outside finding some boulder to climb
+              or climbing at the local crag. I have an unquenchable thirst for
+              knowledge and fortunately the tech industry is an endless supply
+              of that.
             </p>
           </div>
         </article>
@@ -166,24 +167,28 @@
         </a>
       </article>
     </section>
-    <section id="landing-contact" class="row">
+    <section id="landing-contact" class="row d-flex justify-content-between">
       <article class="col-12 text-center text-light">
         <h4 class="m-4">Please Contact Me With Any Questions</h4>
       </article>
-      <a href="mailto:tunnelvision77@gmail.com" class="text-center col-4">
+      <a href="mailto:tunnelvision77@gmail.com" class="text-center m-1">
         <i class="fa fa-envelope icon" aria-hidden="true"></i>
         <p class="text-light">Tunnelvision77@gmail.com</p>
       </a>
+      <a href="https://www.linkedin.com/in/adam-coryat/" class="text-cener">
+        <i class="fa fa-user-circle-o icon" aria-hidden="true"></i>
+        <p class="text-light">LinkedIn</p>
+      </a>
       <a
         href="https://drive.google.com/file/d/1xTFYxTHghaWWKP3EC-4AHp2cKox-9Sbu/view?usp=sharing"
-        class="text-center col-4"
+        class="text-center m-1"
       >
         <i class="fa fa-file-text icon" aria-hidden="true"></i>
         <p class="text-light">Resume</p>
       </a>
-      <a href="tel:+1-208-880-3739" class="text-center col-4">
+      <a href="tel:+1-208-880-3739" class="text-center m-1">
         <i class="fa fa-mobile icon" aria-hidden="true"></i>
-        <p class="text-light">208-880-3739</p>
+        <p class="text-light m-1">208-880-3739</p>
       </a>
     </section>
   </main>
