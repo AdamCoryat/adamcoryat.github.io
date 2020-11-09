@@ -1,4 +1,4 @@
 module.exports = {
-  outputDir: "../client",
-  productionSourceMap: false
+  outputDir: "./client",
+  productionSourceMap: false,
 };
