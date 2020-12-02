@@ -172,7 +172,7 @@ Mr. Coryat has a sincere interest in further expanding his talent to deliver qua
         <p class="text-light">LinkedIn</p>
       </a>
       <a
-        href="https://drive.google.com/file/d/1xTFYxTHghaWWKP3EC-4AHp2cKox-9Sbu/view?usp=sharing"
+        href="https://github.com/AdamCoryat/AdamCoryat/blob/main/Assets/Coryat%20Adam%20Resume.pdf"
         class="text-center m-1"
       >
         <i class="fa fa-file-text icon" aria-hidden="true"></i>
