@@ -21,17 +21,9 @@
             <h4 class="card-title text-center">About Me</h4>
             <hr class="line-break" />
             <p class="card-text">
-              I am a Full Stack Software Developer I currently code in
-              JavaScript and C#. I utilize the Node.Js and .Net frame-work for
-              the server side as well as utilize the Vue.js frame-work for the
-              client side. I've been consumed by my intrest with computers since
-              I was a kid and that intrest just keeps growing. I custom build
-              pc's as well as dabble in water-cooling overclocking and general
-              hardware shinangins. When I'm not coding or tinkering with my
-              computer I will usually be outside finding some boulder to climb
-              or climbing at the local crag. I have an unquenchable thirst for
-              knowledge and fortunately the tech industry is an endless supply
-              of that.
+              Mr. Coryat is a Web Developer with experience in building applications with JavaScript, Vue.js, Node.js, .Net and C#.  He recently graduated top of his class from Boise Codeworks – Immersive Full-Stack program.  His passion for solving problems and building user focused, solution applications motivated him to formally pursue this change in career.  
+He is an experienced professional with a unique combination of technical expertise, managerial experience, business leadership, and design and production support.  
+Mr. Coryat has a sincere interest in further expanding his talent to deliver quality software solutions by applying his recent training along with the prior six years of demonstrated strong analytical, leadership, engineering, business, and interpersonal skills
             </p>
           </div>
         </article>
